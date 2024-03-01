@@ -1,28 +1,7 @@
 # CSE 11 Fall 2022 PA4 - Airline Reservation System
-**Due date: Thursday, Oct 27 @ 11:59PM PDT**
-
-There is an [FAQ post](https://piazza.com/class/l871flmwsqy8i/post/449) on Piazza. Please read that post first if you have any questions.
-
-**Download the starter code from GitHub by clicking Code-> Download ZIP**
-> __Warning__ 
-> 
-> *Do NOT add any additional import statements. Doing so will result in a **0** for your submission.*
-## Provided Files
-- AirlineReservation.java
-- sample.csv
-- otherSample.csv
 
 ## Goal
 Programming Assignment 4 is an introduction to one dimensional arrays in Java. You will need to use arrays, method overloading, and many of the other programming techniques you learned from previous PAs to complete the assignment.
-
-## Overview
-- Survey [Google Form, 1 point]
-- Airline Reservations System [Gradescope, 99 points]
-    - Implementation [94 points]
-    - Style [5 points]
-
-## Survey [1 Point]
-Please fill out [this survey](https://forms.gle/VX3AEsadFW9Yy4iL8) regarding your experience in this course.
 
 ## Airline Reservation System [99 points]
 Airline reservation systems are systems that allow an airline to sell their seats on a flight. In this programming assignment, we will implement a simple airline reservation system that allows the user to book, cancel, and upgrade tickets. They can also lookup a passenger's seat (row) number, print the number available tickets in each travel class, and print a view of the plane with passenger names.
@@ -328,17 +307,3 @@ java AirlineReservation <filename>
 ```
 
 The program takes in **exactly one** command-line argument (`argv[0]`), which is expected to be the filename (more specifically, the file path) to your input CSV file. This CSV file is used to initalize passenger bookings in the plane. For example, if you made a new CSV file called `customLoad.csv`, then you would run `java AirlineReservation customLoad.csv` in your terminal.
-
-You are highly encouraged to make your own CSV files to test your functions. Please use the format as described under the [Input](https://github.com/CaoAssignments/cse11-fa22-pa4-airline-reservation-starter#Input) section when creating your files. Simply create a new file, then save it as `<filename>.csv` under the same folder as your `AirlineReservation.java` file.
-
-***For this programming assignment, all test cases are visible on Gradescope.***
-
-Start early, start often, and good luck on your midterms!
-## Submission
-Submit the following file(s) to Gradescope by **Thursday, Oct 27 @ 11:59PM PDT**.
- - AirlineReservation.java
-
-
-Even if your code does not pass all the tests, you will still be able to submit your work to receive partial points for the tests that you passed. Make sure your code compiles in order to receive partial credit.
-
-
